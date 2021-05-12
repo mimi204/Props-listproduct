@@ -7,7 +7,7 @@ const ProductList = ({ products }) => {
   
   const Total = products.reduce(function(prev, cur) {
   return prev + cur.price;
-}, 1);
+}, 0);
 
     return (
  
